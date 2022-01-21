@@ -1,0 +1,109 @@
+body {
+    margin: 30px 200px;
+    padding: 30px 200px;
+    background-color: darkgray;
+}
+#title_sheet {
+    text-align: center;
+    border-style: dashed;
+}
+.title {
+    margin: 50px;
+    text-decoration: underline;
+    color: crimson;
+}
+/* Style pour les balises del et ins */
+del,
+ins {
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+
+del {
+    background-color: #fbb;
+}
+
+ins {
+    background-color: #d4fcbc;
+}
+
+del::before,
+ins::before {
+    position: absolute;
+    left: .5rem;
+    font-family: monospace;
+}
+del::before {
+    content: '−';
+}
+
+ins::before {
+    content: '+';
+}
+
+p {
+    margin: 0 1.8rem 0;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+}
+/* Style pour les balises kbd */
+kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+   }
+/*Style pour la nav_bar*/
+header {
+    display: flex;
+}
+.nav_logo {
+    vertical-align: middle;
+    padding-top: 0.05em;
+    padding-bottom: 0.05em; 
+}
+.nav_menu {
+    list-style: none;
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    padding: 0%;
+}
+.nav_menu li {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.nav_menu li a {
+    text-decoration: none;
+    font-family: GRECOromanLubedWrestling;
+    font-size: 1.8em;
+    color: black;
+}
+.nav_menu li a:hover {
+    text-decoration: none;
+    font-family: GRECOromanLubedWrestling;
+    font-size: 1.8em;
+    color: darkgoldenrod;
+}
+/*Style pour la textarea*/
+.textarea1 {
+font-family: monospace;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    height: 170px;
+    background-color: #F4F7F8;
+    border: none;
+    border-left: 6px solid #558ABB;
+    color: #4D4E53;
+    padding: 10px;
+    width: 100%;
+}

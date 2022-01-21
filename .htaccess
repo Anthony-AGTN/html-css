@@ -1,0 +1,4 @@
+AuthUserFile /homepages/9/d873238624/htdocs/anthony/pwd/.htpasswd
+AuthName "Accès protégé"
+AuthType Basic
+Require valid-user
