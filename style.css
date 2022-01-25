@@ -3,6 +3,10 @@ body {
     padding: 30px 200px;
     background-color: darkgray;
 }
+h2 em {
+    color: black;
+    font-style: normal;
+}
 #title_sheet {
     text-align: center;
     border-style: dashed;
