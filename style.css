@@ -1,11 +1,15 @@
 body {
-    margin: 30px 200px;
-    padding: 30px 200px;
+    margin: 30px 20px;
+    padding: 30px 20px;
     background-color: darkgray;
 }
 h2 em {
     color: black;
     font-style: normal;
+}
+img {
+    max-width: 300px;
+    width: 95%;
 }
 #title_sheet {
     text-align: center;
@@ -88,7 +92,7 @@ header {
 .nav_menu li a {
     text-decoration: none;
     font-family: GRECOromanLubedWrestling;
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: black;
 }
 .nav_menu li a:hover {
@@ -110,4 +114,13 @@ font-family: monospace;
     color: #4D4E53;
     padding: 10px;
     width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+
+    body{
+        max-width: 1080px;
+        margin-left: auto;
+        margin-right: auto;
+    }    
 }
